@@ -1,7 +1,8 @@
-export const apiUrl =
-	process.env.NODE_ENV !== 'production'
-		? 'http://localhost:5000/api'
-		: 'https://learnit-web.onrender.com/'
+// export const apiUrl =
+// 	process.env.NODE_ENV !== 'production'
+// 		? 'http://localhost:5000/api'
+// 		: 'https://learnit-web.onrender.com/'
+export const apiUrl = 'https://learnit-web-api.onrender.com'
 
 export const LOCAL_STORAGE_TOKEN_NAME = 'learnit-mern'
 
